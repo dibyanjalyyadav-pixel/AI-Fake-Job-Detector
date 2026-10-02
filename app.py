@@ -66,7 +66,7 @@ st.markdown("""
 # =========================================================
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/fake_job_postings.csv")
+    df = pd.read_csv("Data/fake_job_postings.csv")
     text_columns = [
         "title", "company_profile", "description", "requirements", "benefits",
         "location", "department", "salary_range", "employment_type",
